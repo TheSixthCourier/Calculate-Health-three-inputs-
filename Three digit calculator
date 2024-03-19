@@ -1,17 +1,6 @@
-Health = float(input("How much health: "))
-Damage = float(input("How much damage: "))
-Armor = float(input("How much armor: "))
+def newHealth(Health, Damage, DT):
+    DN = Damage - DT
+    CH = Health - DN
+    print(CH)
 
-DPS = Damage - Armor
-
-DT = Health - DPS
-
-print("Your current health:", DT)Health = int(input("How much health: "))
-Damage = int(input("How much damage: "))
-Armor = int(input("How much armor: "))
-
-DPS = Damage - Armor
-
-DT = Health - DPS
-
-print("Your current health:", DT)
+newHealth(100, 10, .5)
