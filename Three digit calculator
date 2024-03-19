@@ -1,6 +1,6 @@
-Health = int(input("How much health: "))
-Damage = int(input("How much damage: "))
-Armor = int(input("How much armor: "))
+Health = float(input("How much health: "))
+Damage = float(input("How much damage: "))
+Armor = float(input("How much armor: "))
 
 DPS = Damage - Armor
 
