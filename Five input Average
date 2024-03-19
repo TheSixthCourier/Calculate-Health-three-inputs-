@@ -1,0 +1,11 @@
+D1 = float(input("Input digit: "))
+D2 = float(input("Input digit: "))
+D3 = float(input("Input digit: "))
+D4 = float(input("Input digit: "))
+D5 = float(input("Input digit: "))
+
+FD = D1 + D2 + D3 + D4 + D5
+
+FFD = FD / 5
+
+print("Your final Digits are:", FFD)
