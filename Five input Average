@@ -1,11 +1,5 @@
-D1 = float(input("Input digit: "))
-D2 = float(input("Input digit: "))
-D3 = float(input("Input digit: "))
-D4 = float(input("Input digit: "))
-D5 = float(input("Input digit: "))
+def Average(Do, De, Di, Du, Da):
+    FD = Do + De + Di + Du + Da
+    print(FD / 5)
 
-FD = D1 + D2 + D3 + D4 + D5
-
-FFD = FD / 5
-
-print("Your final Digits are:", FFD)
+Average(10, 20, 30, 40, 50)
