@@ -1,0 +1,17 @@
+Health = int(input("How much health: "))
+Damage = int(input("How much damage: "))
+Armor = int(input("How much armor: "))
+
+DPS = Damage - Armor
+
+DT = Health - DPS
+
+print("Your current health:", DT)Health = int(input("How much health: "))
+Damage = int(input("How much damage: "))
+Armor = int(input("How much armor: "))
+
+DPS = Damage - Armor
+
+DT = Health - DPS
+
+print("Your current health:", DT)
